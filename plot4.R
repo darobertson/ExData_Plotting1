@@ -53,7 +53,7 @@ plot(plotdata$DateTime, plotdata$Sub_metering_1 , type = "l", ylab = "Energy sub
 lines(plotdata$DateTime, plotdata$Sub_metering_2 ,col="Red")
 lines(plotdata$DateTime, plotdata$Sub_metering_3 ,col="Blue")
 legend("topright", legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), col = c
-       ("black","red", "blue"), border=NULL, lty = c(1,1)) 
+       ("black","red", "blue"), border=NULL, lty = c(1,1), bty="n") 
 
 ## Create the fourth plot
 
